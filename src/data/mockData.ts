@@ -342,7 +342,7 @@ export const MOCK_PROJECTS: SchoolProject[] = [
     estimatedCostINR: 350000,
     raisedINR: 350000,
     targetDate: 'August 2025',
-    imageUrl: '/images/schoolfront.jpg',
+    imageUrl: '/mysore/schoolfront.jpg',
     highlights: ['Bilingual School Signboards', 'Flag Hoisting Grounds', '100+ Students & Staff Facilities'],
   },
   {

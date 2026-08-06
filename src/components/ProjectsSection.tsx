@@ -38,10 +38,10 @@ interface ProjectsSectionProps {
 }
 
 const PRESET_IMAGES = [
-  { label: 'Mysore Campus & Flag', url: '/images/mysore_school_group.jpg' },
-  { label: 'Academic Award Ceremony', url: '/images/mysore_school_award.jpg' },
-  { label: 'Morning Prayer Assembly', url: '/images/mysore_school_assembly.jpg' },
-  { label: 'Patriots & Freedom Fighters', url: '/images/mysore_school_patriots.jpg' },
+  { label: 'Mysore Campus & Flag', url: '/mysore/schoolfront.jpg' },
+  { label: 'Academic Award Ceremony', url: '/mysore/netaji.jpg' },
+  { label: 'Morning Prayer Assembly', url: '/mysore/prayer.jpeg' },
+  { label: 'Patriots & Freedom Fighters', url: '/mysore/netaji.jpg' },
   { label: 'Digital Computer Lab', url: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80' },
   { label: 'Midday Meals Program', url: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80' },
   { label: 'Solar Power System', url: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80' },
