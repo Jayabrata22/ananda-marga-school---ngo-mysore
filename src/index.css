@@ -7,6 +7,19 @@
     color: #1A202C;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  img, video, svg {
+    max-width: 100%;
+    height: auto;
+  }
+
   h1, h2, h3, .font-serif {
     font-family: 'Playfair Display', Georgia, serif;
   }

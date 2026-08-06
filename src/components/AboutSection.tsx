@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AnandaMargaLogo } from './AnandaMargaLogo';
-const founderPortrait = '/images/founder_portrait.jpg';
+const founderPortrait = '/images/PRSarkar_GentlemanPhoto_1.jpg';
 import { 
   ShieldCheck, 
   Award, 
@@ -115,7 +115,7 @@ export const AboutSection: React.FC = () => {
             <div className="bg-white rounded-[32px] p-8 sm:p-12 border border-[#E2E8F0] shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div className="lg:col-span-5 space-y-4 text-center lg:text-left">
                 <div className="relative inline-block mx-auto lg:mx-0">
-                  <div className="w-52 h-64 sm:w-64 sm:h-80 rounded-[32px] overflow-hidden border-4 border-[#002B66] shadow-xl mx-auto bg-white p-1.5">
+                  <div className="w-full max-w-xs h-64 sm:w-64 sm:h-80 rounded-[32px] overflow-hidden border-4 border-[#002B66] shadow-xl mx-auto bg-white p-1.5">
                     <img
                       src={founderPortrait}
                       alt="Shrii Shrii Anandamurti (Prabhat Ranjan Sarkar) - Founder of Ananda Marga"
@@ -158,7 +158,7 @@ export const AboutSection: React.FC = () => {
                   Beyond spiritual guidance, Shrii Shrii Anandamurti was a prolific author of over 250 books covering economics (PROUT), philosophy, linguistics, medicine, ecology, and socio-cultural liberation. Between 1982 and 1990, he composed <strong>5,018 spiritual songs</strong> known as <em>Prabhat Samgiita</em> ("Songs of the New Dawn").
                 </p>
 
-                <div className="pt-2 grid grid-cols-2 gap-3">
+                <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="p-3 bg-[#F0F4F8] rounded-xl border border-[#CBD5E1]">
                     <span className="text-[10px] font-bold text-[#FF6600] uppercase tracking-wider">Motto</span>
                     <p className="font-serif font-bold text-xs text-[#002B66] mt-0.5">Self-Realization & Service to All</p>

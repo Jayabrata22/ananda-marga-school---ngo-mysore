@@ -342,7 +342,7 @@ export const MOCK_PROJECTS: SchoolProject[] = [
     estimatedCostINR: 350000,
     raisedINR: 350000,
     targetDate: 'August 2025',
-    imageUrl: '/images/mysore_school_group.jpg',
+    imageUrl: '/images/schoolfront.jpg',
     highlights: ['Bilingual School Signboards', 'Flag Hoisting Grounds', '100+ Students & Staff Facilities'],
   },
   {
@@ -368,7 +368,7 @@ export const MOCK_PROJECTS: SchoolProject[] = [
     estimatedCostINR: 200000,
     raisedINR: 180000,
     targetDate: 'Ongoing 2026–2027',
-    imageUrl: '/images/mysore_school_assembly.jpg',
+    imageUrl: '/images/prayer.jpg',
     highlights: ['Daily Universal Morning Prayer', 'Universal Brotherhood Values', 'Lacto-Vegetarian Lunch Followup'],
   },
   {
@@ -381,7 +381,7 @@ export const MOCK_PROJECTS: SchoolProject[] = [
     estimatedCostINR: 180000,
     raisedINR: 140000,
     targetDate: 'Quarter 1 2027',
-    imageUrl: '/images/mysore_school_patriots.jpg',
+    imageUrl: '/images/netaji.jpg',
     highlights: ['Patriotic Drama & Fancy Dress', 'Floral Tributes & Speeches', 'RAWA Cultural Youth Wing'],
   },
   {

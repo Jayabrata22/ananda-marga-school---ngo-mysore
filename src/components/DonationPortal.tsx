@@ -251,7 +251,7 @@ export const DonationPortal: React.FC<DonationPortalProps> = ({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 sm:gap-2.5 mb-3">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-2.5 mb-3">
                   {presetINRs.map((preset) => {
                     const isSelected = !isCustom && amountINR === preset;
                     return (

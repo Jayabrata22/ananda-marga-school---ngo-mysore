@@ -79,14 +79,14 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Main Brand Bar with Official Emblem Logo */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 border-b border-[#E2E8F0]">
-        <div className="flex items-center justify-between h-20 gap-2">
+        <div className="flex flex-col gap-3 py-3 md:flex-row md:items-center md:justify-between md:h-20">
           {/* Official Ananda Marga Logo & Name */}
           <button
             onClick={() => {
               setActiveTab('home');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="flex items-center gap-2.5 text-left group focus:outline-hidden cursor-pointer shrink-0"
+            className="flex items-center gap-2.5 text-left group focus:outline-hidden cursor-pointer shrink-0 min-w-0"
           >
             <AnandaMargaLogo className="w-10 h-10 sm:w-12 sm:h-12 shrink-0" />
             <div>
@@ -99,7 +99,7 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
 
           {/* Right Header Controls */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 justify-end">
             {/* Currency Indicator */}
             <div className="hidden md:flex items-center gap-1.5 px-3 py-1.5 bg-[#F0F4F8] rounded-full border border-[#CBD5E1] text-xs font-bold text-[#002B66]">
               <Globe className="w-3.5 h-3.5 text-[#003399]" />
@@ -153,7 +153,7 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Prominent Navigation Bar (Royal Blue Theme from anandamarga.us) */}
       <div className="bg-[#002B66] text-white">
         <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
-          <nav className="flex items-center gap-1 sm:gap-2 overflow-x-auto py-2 scrollbar-none scroll-smooth">
+          <nav className="hidden lg:flex items-center gap-1 sm:gap-2 overflow-x-auto py-2 scrollbar-none scroll-smooth">
             {navItems.map((item) => {
               const Icon = item.icon;
               const isActive = activeTab === item.id;

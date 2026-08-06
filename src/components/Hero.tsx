@@ -244,7 +244,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="absolute inset-0 bg-gradient-to-r from-[#001D47] via-[#002B66]/90 to-[#002B66]/65" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 sm:py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-10 sm:px-6 sm:py-16 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Left Hero Copy */}
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-[#001D47] text-white border border-[#003399] font-bold text-xs uppercase tracking-[0.15em] shadow-sm">
@@ -270,7 +270,7 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="flex flex-wrap gap-4 pt-3">
               <button
                 onClick={() => onNavigateTab('volunteer')}
-                className="inline-flex items-center gap-2 px-7 py-4 bg-[#FF6600] hover:bg-[#e65c00] text-white font-bold rounded-full text-xs uppercase tracking-widest shadow-lg transition-all cursor-pointer"
+                className="inline-flex items-center gap-2 px-5 sm:px-7 py-4 bg-[#FF6600] hover:bg-[#e65c00] text-white font-bold rounded-full text-xs uppercase tracking-widest shadow-lg transition-all cursor-pointer"
               >
                 <Users className="w-4 h-4 text-white" />
                 <span>Join Us as Volunteer</span>
@@ -278,7 +278,7 @@ export const Hero: React.FC<HeroProps> = ({
 
               <button
                 onClick={() => onNavigateTab('donate')}
-                className="inline-flex items-center gap-2 px-7 py-4 bg-white text-[#002B66] hover:bg-[#F0F4F8] font-bold rounded-full text-xs uppercase tracking-widest shadow-lg transition-all cursor-pointer"
+                className="inline-flex items-center gap-2 px-5 sm:px-7 py-4 bg-white text-[#002B66] hover:bg-[#F0F4F8] font-bold rounded-full text-xs uppercase tracking-widest shadow-lg transition-all cursor-pointer"
               >
                 <Heart className="w-4 h-4 fill-[#FF6600] text-[#FF6600]" />
                 <span>Contribute as You Can</span>
@@ -315,7 +315,7 @@ export const Hero: React.FC<HeroProps> = ({
               Every small contribution makes a massive difference for school children, senior citizens, and environmental projects in Mysore.
             </p>
 
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {[500, 1000, 2500].map((amt) => (
                 <button
                   key={amt}
