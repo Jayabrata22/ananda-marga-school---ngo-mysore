@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F8F9FA;
+    color: #1A202C;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Ananda Marga Color Palette (matching anandamarga.us & official emblem) */
+.bg-am-blue { background-color: #002B66; }
+.bg-am-royal { background-color: #003399; }
+.bg-am-saffron { background-color: #FF6600; }
+.bg-am-orange { background-color: #E65100; }
+.bg-am-red { background-color: #D90000; }
+.bg-am-light { background-color: #F8F9FA; }
+.bg-am-sand { background-color: #F0F4F8; }
+
+.text-am-blue { color: #002B66; }
+.text-am-royal { color: #003399; }
+.text-am-saffron { color: #FF6600; }
+.text-am-orange { color: #E65100; }
+.text-am-red { color: #D90000; }
+
+.border-am-blue { border-color: #002B66; }
+.border-am-saffron { border-color: #FF6600; }
+.border-am-light { border-color: #E2E8F0; }

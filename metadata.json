@@ -1,0 +1,6 @@
+{
+  "name": "Ananda Marga School & NGO Mysore",
+  "description": "Official website and donation portal for Ananda Marga School in Mysore, Karnataka. Featuring upcoming school development projects, UPI QR payments with 80G tax receipt, Neohumanist education, and global Ananda Marga directory links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
